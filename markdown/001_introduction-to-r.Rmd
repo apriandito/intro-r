@@ -59,7 +59,7 @@ print(contoh_variabel)
 
 ```{r}
 # Contol membuat variabel dengan  "="
-contoh_variabel_2 = 2
+contoh_variabel_2 <- 2
 ```
 
 ```{r}
@@ -181,7 +181,7 @@ df <- data.frame(
   Nama = c("Dito", "Dian", "Rosidi"),
   Usia = c(23, 24, 27),
   BB = c(63, 53, 70),
-  Tinggi = c(157,156, 155)
+  Tinggi = c(157, 156, 155)
 )
 
 class(df)
@@ -219,7 +219,7 @@ hitung_bmi(tinggi = 1.57, berat = 63)
 ```{r}
 # Membuat fungsi untuk mengitung Returm of Imvestment
 roi <- function(total_pendapatan, biaya, investasi_awal) {
-  return(((total_pendapatan - biaya)/investasi_awal)*0.1)
+  return(((total_pendapatan - biaya) / investasi_awal) * 0.1)
 }
 ```
 
@@ -244,7 +244,7 @@ pelanggan <- "Agnes"
 ```{r}
 # Contoh if Statement
 if (pelanggan %in% daftar_pelanggan) {
-print(paste0(pelanggan, " Ada didalam daftar pelanggan"))
+  print(paste0(pelanggan, " Ada didalam daftar pelanggan"))
 }
 ```
 
@@ -283,11 +283,11 @@ Perulangan atau loop merupakan sebuah perintah dibuat untuk mengulang secara men
 
 ### For Loop
 ```{r}
-harga_barang  <- c(2000, 3000, 4000)
+harga_barang <- c(2000, 3000, 4000)
 
 for (i in harga_barang) {
   harga_asli <- i - 1000
-  print(paste0("Harga Asli = ", harga_asli ))
+  print(paste0("Harga Asli = ", harga_asli))
 }
 ```
 

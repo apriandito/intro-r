@@ -3,8 +3,7 @@ title: "Modul 2: Data Manipulation"
 author: "Muhammad Apriandito"
 ---
 
-Pada praktek kali ini kita akan belajar untuk melakukan EDA data menggunakan Package  ```dplyr```.  Sebelum dapat digunakan, Package ```dplyr``` harus kita install dan load terlebih dulu.
-
+Pada praktek kali ini kita akan belajar untuk melakukan data manipulation menggunakan Package  ```dplyr```.  Sebelum dapat digunakan, Package ```dplyr``` harus kita install dan load terlebih dulu.
 
 ```{r eval=FALSE, include=TRUE}
 # Install package
@@ -18,7 +17,7 @@ library("dplyr")
 
 ## Import Data
 
-Untuk melakukan EDA, kita harus memiliki data yang akan eksplorasi. Dataset yang akan kita gunakan di modul kali ini yaitu dataset Bank Marketing yang didapatkan dari Kaggle. Dataset Bank Marketing berisi informasi terkait Marketing Campaign sebuah Bank di Portugis. Tujuan dari Marketing Campaign ini yaitu untuk menawarakan deposito berjangka (Term Deposit) kepada para nasabah. Informasi lengkap mengenai dataset ini dapat dilihat melalui [Kaggle](https://www.kaggle.com/henriqueyamahata/bank-marketing). Para modul ini, dataset tersebut sudah didownload dan disimpan pada directory ```data/raw```. 
+Dataset yang akan kita gunakan di modul kali ini yaitu dataset Bank Marketing yang didapatkan dari Kaggle. Dataset Bank Marketing berisi informasi terkait Marketing Campaign sebuah Bank di Portugis. Tujuan dari Marketing Campaign ini yaitu untuk menawarakan deposito berjangka (Term Deposit) kepada para nasabah. Informasi lengkap mengenai dataset ini dapat dilihat melalui [Kaggle](https://www.kaggle.com/henriqueyamahata/bank-marketing). Para modul ini, dataset tersebut sudah didownload dan disimpan pada directory ```data/raw```. 
 
 Untuk memulai, mari kita import datanya terlebih dulu. Karena kita sudah menginstall ```readr``` di modul sebelumnya, kita tidak perlu menginstalnya kembali. Dengan demikian, kita cukup me-load/memuat packagenya. 
 
